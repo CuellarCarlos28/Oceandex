@@ -6,7 +6,7 @@
                     <div class="d-grid gap-2" *ngFor="let esp of especies;let i = index">
                         <button class="btn rounded-pill pildora btn-lg border-5" (click)="verEspecie(i + 1 )">
                             <div class="row align-items-center">
-                                <div class="col-4"> <img src="./../../../../../assets/img/axoLogo.png" style="width: 125px; height: 105px;" alt=""></div>
+                                <div class="col-4"> <img [src]="esp.image" style="width: 125px; height: 105px;" [alt]="esp.name"></div>
                                 <div class="col-4"><p>Nombre: {{esp.name}}</p></div>
                                 <div class="col-4"><p>Poblacion Actual: {{esp.amountAlive}}</p></div>
                             </div>
