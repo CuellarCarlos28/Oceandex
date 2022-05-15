@@ -1,0 +1,148 @@
+.bg-transparente {
+    background: rgba( 224, 230, 238, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 20px);
+    -webkit-backdrop-filter: blur( 20px);
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.titulo {
+    font-family: 'Cinzel', serif;
+    font-family: 'Lexend Mega', sans-serif;
+    margin-left: 250px;
+    font-size: 40px;
+}
+
+.texto {
+    font-family: 'Cinzel', serif;
+    font-family: 'Lexend Mega', sans-serif;
+    color: #000;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.donar {
+    font-family: 'Cinzel', serif;
+    font-family: 'Lexend Mega', sans-serif;
+    color: #000;
+    font-size: 20px;
+}
+
+
+/* MEDIAS */
+
+@media screen and (max-width: 1400px) {
+    .titulo {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .donar {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        font-size: 20px;
+        margin-left: -15PX;
+    }
+    .texto {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        margin-left: 150px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .titulo {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .texto {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        margin-left: 120px;
+        font-size: 20px;
+    }
+    .donar {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        font-size: 20px;
+        margin-left: -15PX;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .titulo {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .texto {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .donar {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        font-size: 20px;
+        margin-left: -15PX;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .texto {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .donar {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        font-size: 20px;
+        margin-left: -15PX;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .titulo {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .texto {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .donar {
+        font-family: 'Cinzel', serif;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #000;
+        font-size: 20px;
+        margin-left: -15PX;
+    }
+}

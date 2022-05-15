@@ -1,0 +1,60 @@
+<h1 class="tituloR">
+    REPORTE</h1>
+
+<div action="#" enctype="multipart/form-data" target="_blank">
+
+    <p class="modParrafo">
+
+        Sube una imagen: <br>
+
+        <input type="file" id="imgReport" name="imgReport" multiple accept="image/png, .jpeg, .jpg, image/gif">
+        <br><br>
+        <google-map></google-map><br><br>
+        <br><br><label>Estado en el que se encontro la especie</label><br>
+
+        <br><select name="estado">
+            <option value="no">Seleccione uno...</option>
+            <option value="Vivo">Vivo</option>
+            <option value="Enfermo">Enfermo</option>
+            <option value="Muerto">Muerto</option>
+        </select><br><br><br>
+
+
+
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#contenido-modal">Subir imagen(s)</button>
+    </p>
+
+</div>
+
+
+
+
+<div class="modal fade" id="contenido-modal" tabindex="-1" data-bs-backdrop="static">
+    <!-- Primer elemento hijo -->
+    <div class="modal-dialog modal-dialog-centered">
+        <!-- Segundo Elemento hijo -->
+        <div class="modal-content">
+            <!-- Tercer elmento hijo  con 3  -->
+
+            <div class="modal-header">
+                <h2 class="modal-title">GRACIAS </h2>
+                <button class="close" data-bs-dismiss="modal">
+                <span>&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <p>Gracias por ayudar a que este mundo aun conserve a estas criaturas llegaremos lo mas rapido posible
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">
+cerrar
+            </button>
+                <button class="btn btn-danger">
+                    guardar
+            </button>
+            </div>
+        </div>
+    </div>
+</div>

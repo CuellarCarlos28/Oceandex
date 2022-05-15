@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row p-5">
+        <div class="col-12  molde ">
+            <div class="row">
+                <div class="col-12  ">
+                    <div class="" *ngFor="let especies of especies ">
+                        <img [src]="especies.image" class="ajolote pantalla " alt="">
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center  ">
+                    <div class="pantalla-info  " *ngFor="let especies of especies ">
+                        <P>Nombre: {{especies.name}}</P>
+                        <p>scientificName: {{especies.scientificName}}</p>
+                        <p>Type: {{especies.type}} </p>
+                        <p>amountAlive: {{especies.amountAlive}}</p>
+                        <p>info: {{especies.info}}</p>
+                        <p>location: {{especies.location}}</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
