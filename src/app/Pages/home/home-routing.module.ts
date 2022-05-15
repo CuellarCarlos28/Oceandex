@@ -6,13 +6,16 @@ import { InformateComponent } from './Components/informate/informate.component';
 import { ReporteComponent } from './Components/reporte/reporte.component';
 import { ConocenosComponent } from './Components/conocenos/conocenos.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { InterfazComponent } from './Components/interfaz/interfaz.component';
 
 const routes: Routes = [
   {path: '', component:HomepagesComponent,
 children:[{path:'',component:InicioComponent},
 {path:'Informate', component:InformateComponent},
 {path:'Reporte',component:ReporteComponent },
-{path: 'Conocenos', component:ConocenosComponent}
+{path: 'Conocenos', component:ConocenosComponent},
+{path: 'Prueba/:id', component:InterfazComponent}
+
 ]
 }
 ];
