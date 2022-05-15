@@ -1,16 +1,51 @@
 .molde {
-    height: 615px;
+    margin-top: 125px;
+    height: 815px;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 20px);
+    -webkit-backdrop-filter: blur( 20px);
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Lexend Mega', sans-serif;
+    border-radius: 50px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
 }
 
 .pantalla {
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 80%;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    margin-top: 15px;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur( 20px);
+    -webkit-backdrop-filter: blur( 20px);
+    /*  */
+}
+
+.pantalla-info {
+    text-align: justify;
+    height: 430px;
+    width: 850px;
     background: #fff;
     margin-top: 15px;
+    background: rgba( 255, 255, 255, 0.25);
+    backdrop-filter: blur( 20px);
+    -webkit-backdrop-filter: blur( 20px);
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Lexend Mega', sans-serif;
+    border-radius: 40px;
+    border: 5px solid rgba( 255, 255, 255, 0.18);
 }
 
 .ajolote {
-    width: 175px;
-    height: 150px;
-    margin-left: 180px;
+    width: 275px;
+    height: 250px;
+    margin-left: 450px;
     /* margin-top: 10px; */
 }
