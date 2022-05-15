@@ -1,4 +1,14 @@
 .caja {
-    height: 630px;
+    height: 750px;
     /* background: yellow; */
+}
+
+.pildora {
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 20px);
+    -webkit-backdrop-filter: blur( 20px);
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Lexend Mega', sans-serif;
 }
