@@ -7,4 +7,5 @@ export interface Especie {
     amountAlive: number;
     info: string;
     location: string;
+    image:string;
 }
